@@ -1,0 +1,107 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+.outer{
+    height:200px;
+    width:100%;
+  
+    margin-top:20px;
+    position:relative;
+}
+.sun{
+    height:200px;
+    width:200px;
+    border:1px solid black;
+    background-color:orangered;
+    border-radius: 50%;
+    position:absolute;
+    top:20px;
+    left:-15px;
+    overflow:hidden;
+    opacity:0.8;
+    animation-name:sun;
+    animation-duration: 5s;
+    animation-iteration-count:1;
+    animation-direction:ease-in-out;
+}
+.cloud1{
+    height:200px;
+    width:280px;
+    position:absolute;
+    opacity:0.5;
+    top:20px;
+    left:-10px;
+    animation-name:cloud1;
+    animation-duration:4s;
+    animation-iteration-count:o.7;
+    animation-direction:ease-in-out;
+}
+.cloud2{
+    height:200px;
+    width:300px;
+    position:absolute;
+    opacity:0.5;
+    top:20px;
+    left:500px;
+    animation-name:cloud2;
+    animation-duration:7s;
+    animation-iteration-count:1;
+    animation-direction:ease-in-out;
+}
+
+.cloud3{
+    height:200px;
+    width:300px;
+    position:absolute;
+    opacity:0.5;
+    top:20px;
+    right:-10px;
+    animation-name:cloud3;
+    animation-duration:4s;
+    animation-iteration-count:1;
+    animation-direction:ease-in-out;
+}
+    @keyframes cloud1{
+    from{
+        top:20px;
+    left:-10px;
+    }
+    to{
+        top:15px;
+        left:110%;
+    }
+}
+    @keyframes cloud2{
+    from{
+        top:20px;
+        left:500px;
+    }
+    to{
+        top:15px;
+        left:110%;
+    }
+}
+@keyframes cloud3{
+    from{
+        top:20px;
+        right:-10px;
+    }
+    to{
+        top:15px;
+        right:110%;
+    }
+}
+@keyframes sun {
+    from{
+        top:20px;
+        left:-15px;
+        opacity:0.8;
+    }
+    to{
+        top:20px;
+        left:110%;
+        opacity:1;
+    }
+    
+}

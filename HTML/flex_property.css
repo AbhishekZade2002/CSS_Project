@@ -1,0 +1,45 @@
+#A{
+    height: 500px;
+    width: 800px;
+    display:flex;
+    border: 6px dotted black ;
+    flex-direction:row;
+    flex-wrap:nowrap;
+    justify-content:center;
+    align-items: CENTER;
+    align-content: CENTER;
+    
+
+  
+}
+.A1{
+    background-color:green;
+    height: 150px;
+    width: 150px;
+    border:2px solid black;
+    display:inline-block;
+    flex-shrink:1;
+}
+.A2{
+    background-color:aqua;
+    height: 150px;
+    width: 150px;
+    border:2px solid black;
+    display:inline-block;
+    flex-grow: 1;
+}
+.A3{
+    height: 150px;
+    width: 150px;
+    background-color: blueviolet;
+    border:2px solid black;
+    display:inline-block;
+}
+.A4{
+    height: 150px;
+    width: 150px;
+    background-color: chocolate;
+    border:2px solid black;
+    display:inline-block;
+   
+}

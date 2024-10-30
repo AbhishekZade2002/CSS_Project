@@ -1,0 +1,35 @@
+*{
+    padding:0px;
+    margin:0px;
+    color:white;
+}
+#navbar{
+    background-color:rgb(71, 62, 62);
+    height:60px;
+
+}
+#p1{
+    color: rgba(196, 129, 6, 0.808);
+    font-size:25px;
+}
+button{
+    background-color:rgb(173, 129, 47);
+}
+a{
+    margin-right:  150px;
+    
+}
+.container{
+    height: 170px;
+    width:100px;
+    border:3px solid black;
+    display:inline-block;
+    margin: 25px;
+}
+footer{
+    color: white;
+    background-color: black;
+}
+#Container{
+    height:600px;
+}

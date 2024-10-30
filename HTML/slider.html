@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider</title>
+    <style>
+        .slider{
+            height:200px;
+            width:100%;
+            display:flex;
+            background-size: cover;
+            animation-name:img2;
+            animation-duration: 2s;
+            animation-timing-function: linear;
+            animation-delay:0s;
+            animation-iteration-count:infinite;
+            animation-direction:alternate;
+        }
+        
+        @keyframes img2{
+            0%{
+                justify-content: flex-start;
+            }
+            50%{
+                justify-content: center;
+            }
+            100%{
+                justify-content: flex-end;
+            }
+
+        }
+        </style>
+</head>
+<body>
+    <div class="slider">
+        <img class="img1" src="flipkart-img1">
+        <img class="img2" src="flipkart-img2">
+        <img class="img3" src="flipkart-img3">
+    </div>
+</body>
+</html>

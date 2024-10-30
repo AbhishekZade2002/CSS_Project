@@ -1,0 +1,41 @@
+body{
+   background-image:url(mountain.jpg);
+}
+#A{
+    height:310px;
+    width:350px;
+    border: 5px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+   
+
+    
+}
+.b1{
+    height:32px;
+   width:32px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.A1{
+    background-color:black;
+    height:30px;
+    width:30px;
+    border: 2px solid black;
+    display:flex;
+    flex-direction:row;
+    
+    
+}
+.A2{
+    background-color:white;
+    height: 30px;
+    width:30px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction:row;
+    
+}

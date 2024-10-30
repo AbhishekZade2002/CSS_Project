@@ -1,0 +1,26 @@
+div{
+    background-color:teal;
+    height:100px;
+    width:100px;
+    border:2px dashed black;
+    position:absolute;
+    top:100px;
+    left:100px;
+     animation-name:colorAnimation;
+    animation-duration: 2s;
+    /* animation-timing-function: ease-out;*/
+    animation-delay:0s;
+    animation-iteration-count:infinite;
+    animation-direction:alternate;
+}
+@keyframes colorAnimation {
+    from{
+        background-color:teal;
+        left:0px;
+    }
+    to{
+        background-color:red;
+        left:200px;
+    }
+    
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <title>practice set1</title>
+    <link rel="stylesheet" href="apnaPractice.css">
+    <style>
+        #box{
+            background-color:blue;
+        }
+        .h{
+            background-color:rgb(255,255,0);
+        }
+        #b{
+            background-color:rgb(0,0,255)
+        }
+    </style>
+    <body>
+        <div id="box"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe veniam iste vitae, impedit officiis ex ipsa maiores nobis consequatur delectus.</div>
+        <h1 class="h"> Heading1</h1>
+        <h1 class="h">Heading2</h1>
+        <script>
+            let div =document.querySelector("h1");
+            console.log(div);
+           let para= div.getAttribute("class");
+           console.log(para);
+           let set=div.setAttribute("class","A");
+           console.log(set);
+            
+        </script>
+    </body>
+</html>
